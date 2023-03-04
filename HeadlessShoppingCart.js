@@ -15,7 +15,7 @@ $(document).ready(function () {
 <h3 class="cart-total-price"></h3>
 <button class="checkout-button banner-btn">Checkout</button>
 <hr class="line-break"></hr>
-<p class="secured-by-revenuekarma">🔒Secured by <a href="https://revenuekarma.com">RevenueKarma</a></p>
+<p class="secured-by-headlessshoppingcart">🔒Secured by <a href="https://example.com">headlessshoppingcart</a></p>
 </div>
 </div>
 `);
