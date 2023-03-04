@@ -63,12 +63,11 @@ You have successfully installed Headless Shopping Cart!
 After you install PolygonPay you will be able to implement a `<button>` in your HTML code to add a product to the PolygonPay cart and checkout. The following `<button>` tag is an example.
 
 ```html
-<button class="headlessshoppingcartjs-add-item"
-        data-title="Hat" 
-        data-description="This is a hat"
-        data-price="15.79" 
-        data-url="https://example.com/hat" 
-        data-imageSrc="https://example.com/hat.png">
-        Add to Cart
+<button class="button-add" data-title="Hat"
+        data-description="This is hat"
+        data-price="8.12"
+        data-url="https://example.com/hat"
+        data-imageSrc="https://cdn.shopify.com/s/files/1/1045/5130/products/DB-GD_2000x2000.jpg?v=1544714533">
+    Add to Cart
 </button>
 ```
