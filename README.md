@@ -60,7 +60,7 @@ You have successfully installed Headless Shopping Cart!
 
 ### How to Use Headless Shopping Cart
 
-After you install Headless Shopping Cart you will be able to implement a `<button>` in your HTML code to add a product to the PolygonPay cart and checkout. The following `<button>` tag is an example.
+After you install Headless Shopping Cart you will be able to implement a `<button>` in your HTML code to add a product to the cart and checkout. The following `<button>` tag is an example.
 
 ```html
 <button class="button-add" data-title="Hat"
