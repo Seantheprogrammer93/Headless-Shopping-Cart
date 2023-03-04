@@ -15,12 +15,12 @@ $(document).ready(function () {
 <h3 class="cart-total-price"></h3>
 <button class="checkout-button banner-btn">Checkout</button>
 <hr class="line-break"></hr>
-<p class="secured-by-headlessshoppingcart">🔒Secured by <a href="https://example.com">headlessshoppingcart</a></p>
+<p class="secured-by-headlessshoppingcart">🔒Secured by <a href="https://example.com">Headless Shopping Cart</a></p>
 </div>
 </div>
 `);
     // append the content to the body.
-    $(".headlessshoppingcartpayjs").append(content);
+    $(".headlessshoppingcartjs").append(content);
 
     // This message is hidden by default.
     $(".duplicate-item-in-cart").hide();
@@ -33,7 +33,7 @@ $(document).ready(function () {
     }
 
     // Toggle the cart popping up when the page loads via the.
-    var autopop = $("#headlessshoppingcartpayjs").attr("data-autopop");
+    var autopop = $("#headlessshoppingcartjs").attr("data-autopop");
     if (autopop == "true") {
         $(".headlessshoppingcart-pay-cart").addClass("showheadlessshoppingcart-pay-cart");
     }
