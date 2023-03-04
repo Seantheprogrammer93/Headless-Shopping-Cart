@@ -5,8 +5,6 @@ This was inspired by Snipcart (https://snipcart.com). This is a client side, hea
 
 ### PolygonPay Installation
 
-**Please go to our [documentation](https://docs.polygonpay.com) for more detailed installation and usage instructions**
-
 1) The first step is to sign up for a [PolygonPay](https://app.polygonpay.com/signup) account and obtain an API key.
 
 2) The second step is to include the following two `<script>` tags and the one `<link>` tag in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
