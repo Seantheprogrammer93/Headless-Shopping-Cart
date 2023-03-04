@@ -3,20 +3,19 @@ This was inspired by Snipcart (https://snipcart.com). This is a client side, hea
 
 ---
 
-### PolygonPay Installation
+### Headless Shopping Cart Installation
 
-1) The first step is to sign up for a [PolygonPay](https://app.polygonpay.com/signup) account and obtain an API key.
-
-2) The second step is to include the following two `<script>` tags and the one `<link>` tag in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
+1) The second step is to include the following two `<script>` tags and the one `<link>` tag in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.1-alpha/polygonpay.min.js"></script>
-<link rel="stylesheet" crossorigin="anonymous" type="text/css" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.1-alpha/polygonpayjs-style.min.css">
+<script data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart/HeadlessShoppingCart.min.js"></script>
+<link rel="stylesheet" crossorigin="anonymous" type="text/css" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart/HeadlessShoppingCart.min.css">
 ```
+You may set the `data-autopop` attribute in the `<script>` tag to `true` or `false`. Setting the `data-autopop` to `true` will allow the shopping cart modal to pop up automatically (assuming items have been added to the cart), setting the `data-autopop` to `false` will prevent the shopping cart modal from automatically popping up.
 
-3) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
+2) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
 ```html
-<div class="polygonpayjs"></div>
+<div class="headlessshoppingcartjs"></div>
 ```
 
 After you complete steps 1, 2 and 3 your HTML document should look like the example code below. Please, feel free to copy the code below if you want a simple starting point for your HTML document.
@@ -28,15 +27,14 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Headless Shopping Cart Example</title>
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.1-alpha/polygonpay.min.js"></script>
-    <link rel="stylesheet" crossorigin="anonymous" type="text/css"
-        href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.1-alpha/polygonpayjs-style.min.css">
+    <script data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart/HeadlessShoppingCart.min.js"></script>
+    <link rel="stylesheet" crossorigin="anonymous" type="text/css" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart/HeadlessShoppingCart.min.css">
 </head>
 
 <body>
-    <div class="polygonpayjs"></div>
+    <div class="headlessshoppingcartjs"></div>
 
     <button class="button-add" data-title="Shirt" data-description="This is a shirt" data-price="3.75"
         data-url="https://example.com/shirt"
@@ -65,7 +63,7 @@ You have successfully installed PolygonPay and you will now be able to create yo
 After you install PolygonPay you will be able to implement a `<button>` in your HTML code to add a product to the PolygonPay cart and checkout. The following `<button>` tag is an example.
 
 ```html
-<button class="polygonpay-add-item"
+<button class="headlessshoppingcartjs-add-item"
         data-title="Hat" 
         data-description="This is a hat"
         data-price="15.79" 
@@ -74,8 +72,3 @@ After you install PolygonPay you will be able to implement a `<button>` in your 
         Add to Cart
 </button>
 ```
----
-
-### FAQ
-- **Where can I use PolygonPay?** - You can use PolygonPay wherever you have direct access to HTML code, this includes frameworks like React and Next.js or WordPress. **If you have direct access to HTML code then you can use PolygonPay**.
-- **Is PolygonPay free?** - PolygonPay charges a small fee of 2% on your monthly revenue.
