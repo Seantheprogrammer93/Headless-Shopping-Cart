@@ -29,7 +29,7 @@ After you complete steps 1 and 2, your HTML document should look like the exampl
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headless Shopping Cart Example</title>
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-    <script id="headlessshoppingcartjs" data-autopop="true" data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.0-alpha/HeadlessShoppingCart.min.js"></script>
+    <script id="headlessshoppingcartjs" data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.0-alpha/HeadlessShoppingCart.min.js"></script>
     <link rel="stylesheet" crossorigin="anonymous" type="text/css" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.0-alpha/HeadlessShoppingCart.min.css">
 </head>
 
