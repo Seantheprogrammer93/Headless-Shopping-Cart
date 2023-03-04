@@ -39,13 +39,13 @@ After you complete steps 1 and 2, your HTML document should look like the exampl
     <button class="button-add" data-title="Shirt" data-description="This is a shirt" data-price="10.75"
         data-url="https://example.com/shirt"
         data-imageSrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdemo.wpstartersites.com%2Fcordero-demo%2Fwp-content%2Fuploads%2Fsites%2F12%2F2020%2F06%2Fmens-tee-blue.jpg&f=1&nofb=1&ipt=3beb7e4030c314bdbafe6cfd288aaadd051db5111832d3023afbf9fcf781c4ed&ipo=images">
-        Add to Cart
+        Add Shirt to Cart
     </button>
 
     <button class="button-add" data-title="Hat" data-description="This is hat" data-price="8.12"
         data-url="https://example.com/hat"
         data-imageSrc="https://cdn.shopify.com/s/files/1/1045/5130/products/DB-GD_2000x2000.jpg?v=1544714533">
-        Add to Cart
+        Add Hat to Cart
     </button>
 </body>
 
@@ -68,6 +68,6 @@ After you install Headless Shopping Cart you will be able to implement a `<butto
         data-price="8.12"
         data-url="https://example.com/hat"
         data-imageSrc="https://cdn.shopify.com/s/files/1/1045/5130/products/DB-GD_2000x2000.jpg?v=1544714533">
-    Add to Cart
+    Add Hat to Cart
 </button>
 ```
