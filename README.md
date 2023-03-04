@@ -8,7 +8,7 @@ This was inspired by Snipcart (https://snipcart.com). This is a client side, hea
 1) The second step is to include the following two `<script>` tags and the one `<link>` tag in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-<script data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.0-alpha/HeadlessShoppingCart.min.js"></script>
+<script id="headlessshoppingcartjs" data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.0-alpha/HeadlessShoppingCart.min.js"></script>
 <link rel="stylesheet" crossorigin="anonymous" type="text/css" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.0-alpha/HeadlessShoppingCart.min.css">
 ```
 You may set the `data-autopop` attribute in the `<script>` tag to `true` or `false`. Setting the `data-autopop` to `true` will allow the shopping cart modal to pop up automatically (assuming items have been added to the cart), setting the `data-autopop` to `false` will prevent the shopping cart modal from automatically popping up.
