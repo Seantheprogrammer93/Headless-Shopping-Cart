@@ -5,7 +5,7 @@ This was inspired by Snipcart (https://snipcart.com). This is a client side, hea
 
 ### Headless Shopping Cart Installation
 
-1) The second step is to include the following two `<script>` tags and the one `<link>` tag in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
+1) The second step is to include the following two `<script>` tags and the one `<link>` tag in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and Headless Shopping Cart just like the ones below.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
 <script id="headlessshoppingcartjs" data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.0-alpha/HeadlessShoppingCart.min.js"></script>
