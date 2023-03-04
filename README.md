@@ -18,7 +18,7 @@ You may set the `data-autopop` attribute in the `<script>` tag to `true` or `fal
 <div class="headlessshoppingcartjs"></div>
 ```
 
-After you complete steps 1, 2 and 3 your HTML document should look like the example code below. Please, feel free to copy the code below if you want a simple starting point for your HTML document.
+After you complete steps 1 and 2, your HTML document should look like the example code below. Please, feel free to copy the code below if you want a simple starting point for your HTML document.
 ```html
 <!DOCTYPE html>
 <html lang="en">
