@@ -63,7 +63,8 @@ You have successfully installed Headless Shopping Cart!
 After you install Headless Shopping Cart you will be able to implement a `<button>` in your HTML code to add a product to the cart and checkout. The following `<button>` tag is an example.
 
 ```html
-<button class="button-add" data-title="Hat"
+<button class="button-add"
+        data-title="Hat"
         data-description="This is hat"
         data-price="8.12"
         data-url="https://example.com/hat"
