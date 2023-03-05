@@ -11,7 +11,7 @@ This was inspired by Snipcart (https://snipcart.com). This is a client side, hea
 <script id="headlessshoppingcartjs" data-autopop="true" src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.3-alpha/HeadlessShoppingCart.min.js"></script>
 <link rel="stylesheet" crossorigin="anonymous" type="text/css" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/Headless-Shopping-Cart@v1.0.3-alpha/HeadlessShoppingCart.min.css">
 ```
-You may set the `data-autopop` attribute in the `<script>` tag to `true` or `false`. Setting the `data-autopop` to `true` will allow the shopping cart modal to pop up automatically (assuming items have been added to the cart), setting the `data-autopop` to `false` will prevent the shopping cart modal from automatically popping up.
+You may set the `data-autopop` attribute in the `<script>` tag to `true` or `false`. Setting the `data-autopop` to `true` will allow the shopping cart modal to pop up automatically, setting the `data-autopop` to `false` will prevent the shopping cart modal from automatically popping up.
 
 2) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
 ```html
